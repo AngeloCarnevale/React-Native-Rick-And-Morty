@@ -19,8 +19,8 @@ export default function Login({ navigation }) {
             const response = await signInWithEmailAndPassword(auth, email, password)
             alert("Login feito com sucesso")
             setUser(response)
-        } catch (e) {
-            alert("Erro ao efetuar login")
+        } catch {
+            alert("Conta não encontrada")
         }
         finally {
             setLoading(false)

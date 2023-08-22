@@ -42,6 +42,7 @@ export const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: '#c0c0c0',
         height: 30,
+        color: 'white',
         paddingLeft: 5
     },
     textButton: {
