@@ -68,6 +68,7 @@ export default function Home({ navigation }) {
                 onEndReached={getCharacters}
                 onEndReachedThreshold={0.2}
                 ListFooterComponent={<ActivityIndicator color={'green'} size={'large'} />}
+                showsVerticalScrollIndicator={false }
                 refreshControl={
                     <RefreshControl
                         refreshing={loading}
